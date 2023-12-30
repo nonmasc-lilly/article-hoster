@@ -1,2 +1,2 @@
-all: main.c
-	gcc main.c -o main -std=c89 -Wpedantic
+all: main.c utils/*.c
+	gcc main.c utils/*.c -o main -std=c89 -Wpedantic
